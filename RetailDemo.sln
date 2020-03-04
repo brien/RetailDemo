@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientUI", "ClientUI\ClientUI.csproj", "{C2D57D2D-1182-4E20-BD3E-A9B64F747200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{26B8F01D-E69F-4307-9DC7-6055A2911D40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2D57D2D-1182-4E20-BD3E-A9B64F747200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D57D2D-1182-4E20-BD3E-A9B64F747200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D57D2D-1182-4E20-BD3E-A9B64F747200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D57D2D-1182-4E20-BD3E-A9B64F747200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B8F01D-E69F-4307-9DC7-6055A2911D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B8F01D-E69F-4307-9DC7-6055A2911D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B8F01D-E69F-4307-9DC7-6055A2911D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B8F01D-E69F-4307-9DC7-6055A2911D40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A3EBC23-4D33-44FB-BD9A-72EBF077E994}
+	EndGlobalSection
+EndGlobal
