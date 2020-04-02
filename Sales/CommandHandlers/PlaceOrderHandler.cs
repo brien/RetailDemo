@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClientUI.CommandHandlers
+namespace Sales.CommandHandlers
 {
     public class PlaceOrderHandler : IHandleMessages<PlaceOrder>
     {
