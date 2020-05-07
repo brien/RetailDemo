@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Messages.Commands;
 
 namespace Sales.CommandHandlers
 {
@@ -16,7 +17,11 @@ namespace Sales.CommandHandlers
         public Task Handle(PlaceOrder message, IMessageHandlerContext context)
         {
             log.Info($"Received PlaceOrder, OrderId = {message.OrderId}");
-            return Task.CompletedTask;
+            var orderPlaced = new OrderPlaced
+            {
+                OrderId = message.OrderId
+            };
+            return context.Publish(orderPlaced);
         }
     }
 }
