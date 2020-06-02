@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NServiceBus;
 
-namespace Messages.Commands
+namespace Messages.Events
 {
     public class OrderPlaced : IEvent
     {

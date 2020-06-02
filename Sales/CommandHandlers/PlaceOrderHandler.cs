@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Messages.Commands;
+using Messages.Events;
 
 namespace Sales.CommandHandlers
 {
