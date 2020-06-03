@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using NServiceBus.Logging;
-using Messages.Commands;
+using Messages.Events;
 
 namespace Billing.EventHandlers
 {
@@ -16,7 +16,11 @@ namespace Billing.EventHandlers
         {
             log.Info($"Received OrderPlaced, OrderId = {message.OrderId} - Charging credit card...");
 
-            return Task.CompletedTask;
+            var orderPlaced = new OrderBilled
+            {
+                OrderId = message.OrderId
+            };
+            return context.Publish(orderPlaced);
         }
     }
 }
