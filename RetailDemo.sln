@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales", "Sales\Sales.csproj", "{D0975308-4F2D-426C-B88F-6348C2938BB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billing", "Billing\Billing.csproj", "{1DFF1A8F-08E0-4753-AA45-DE09B3B7D5E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Billing", "Billing\Billing.csproj", "{1DFF1A8F-08E0-4753-AA45-DE09B3B7D5E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping", "Shipping\Shipping.csproj", "{D756A67A-89D0-4404-ACDE-F263461BBDBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1DFF1A8F-08E0-4753-AA45-DE09B3B7D5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DFF1A8F-08E0-4753-AA45-DE09B3B7D5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DFF1A8F-08E0-4753-AA45-DE09B3B7D5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D756A67A-89D0-4404-ACDE-F263461BBDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D756A67A-89D0-4404-ACDE-F263461BBDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D756A67A-89D0-4404-ACDE-F263461BBDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D756A67A-89D0-4404-ACDE-F263461BBDBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
